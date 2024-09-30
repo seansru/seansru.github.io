@@ -10947,14 +10947,27 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
+  overflow: hidden;
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+.resume-section-content h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.resume-section-content h3 {
+  font-size: 3rem;
+  font-weight: semi-bold;
+}
+.resume-section-content h4 {
+  font-size: 2.1rem;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
