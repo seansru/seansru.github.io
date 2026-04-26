@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Sean Ru MSCS @ GT</title>
+    <title>Sean Ru | Data Analyst & Researcher</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script
@@ -42,6 +42,36 @@
         hr.m-0 {
             margin: 0;
         }
+
+        .publication-card {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .publication-card img {
+            width: 200px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .publication-card .pub-placeholder {
+            width: 200px;
+            height: 140px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            background-color: #f0f4f8;
+            border: 1px solid #ccd6e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+        }
+
+        .publication-card .pub-placeholder i {
+            font-size: 2.5rem;
+            color: #a0b4c8;
+        }
     </style>
 </head>
 <body id="page-top">
@@ -73,29 +103,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about"
-                        >About</a
-                    >
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education"
-                        >Education</a
-                    >
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience"
-                        >Experience</a
-                    >
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#publications"
-                        >Publications</a
-                    >
+                    <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#resume"
-                        >Resume</a
-                    >
+                    <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
                 </li>
             </ul>
         </div>
@@ -109,21 +129,24 @@
                     Sean Ru
                 </h1>
                 <div class="subheading mb-5">
-                    Master's CS Student @ Georgia Tech · Atlanta, GA · Los Angeles, CA
+                    Data Analyst @ Capital One · McLean, VA
                 </div>
                 <p>
-                    Hello! I'm a Master's CS student at Georgia Tech with a focus
-                    on Visual Analytics. I graduated with my Bachelor's in CS at
-                    Georgia Tech in May 2024, focusing on AI/ML and Database &
-                    Networking Technologies. I have a keen interest in leveraging
-                    data to drive insights and enhance decision-making through
-                    advanced visualization techniques.
+                    Hello! I'm a Data Analyst at <a href="https://www.capitalone.com/" target="_blank">Capital One</a> on the Customer Identity team, 
+                    where I build analytics tools and pipelines that support fraud detection, credential management, and 2FA programs. 
+                    I earned both my Bachelor's and Master's degrees in Computer Science from Georgia Tech — my B.S. in May 2024 
+                    (focus: AI/ML and Database &amp; Networking Technologies) and my M.S. in May 2025 (focus: Visual Analytics).
                 </p>
                 <p>
-                    During my free time, I like to pursue little passion
-                    projects (like this website), play video games, scroll
-                    aimlessly on YouTube, hang out with friends, and cook/eat
-                    food! I am a certified foodie! I also really love cats,
+                    During my master's, I was a student researcher in the 
+                    <a href="https://vis.gatech.edu/" target="_blank">Georgia Tech Visualization Lab</a> advised by 
+                    <a href="https://cyxiong.com/" target="_blank">Prof. Cindy Xiong Bearfield</a>. My research focused on 
+                    visualization design and visual complexity, resulting in two publications: a short paper at 
+                    <strong>IEEE PacificVis 2026</strong> (co-first author) and an extended abstract at <strong>ACM CHI 2025</strong>.
+                </p>
+                <p>
+                    During my free time, I like to pursue little passion projects (like this website), play video games, scroll 
+                    aimlessly on YouTube, hang out with friends, and cook/eat food! I am a certified foodie! I also really love cats, 
                     though I don't have one right now, but I will in the future!
                 </p>
                 <p>
@@ -144,7 +167,7 @@
                     ></a>
                     <a
                         class="social-icon"
-                        href="mailto:sru3@gatech.edu"
+                        href="mailto:sru3.gt@gmail.com"
                         ><i class="fas fa-envelope"></i
                     ></a>
                 </div>
@@ -208,12 +231,30 @@
                         <h4 class="mb-0">Data Analyst</h4>
                         <div class="subheading mb-3">Capital One</div>
                         <p>
-                            I am grateful to have received a return offer to Capital One! I will be a full-time Data Analyst in the
-                            <a href="https://www.capitalonecareers.com/full-time-programs" target="_blank">Analyst Development Program</a> starting August 2025. 
+                            I'm a full-time Data Analyst on the Customer Identity team at 
+                            <a href="https://www.capitalone.com/" target="_blank">Capital One</a>, part of the 
+                            <a href="https://www.capitalonecareers.com/full-time-programs" target="_blank">Analyst Development Program</a>. 
+                            I support product managers, fraud analysts, business analysts, and compliance teams in delivering a smooth, 
+                            low-friction customer experience while identifying, preventing, and minimizing fraud.
+                        </p>
+                        <p>
+                            I am the sole owner of two cross-functional initiatives on the team. The first is an end-to-end 
+                            <strong>device monitoring tool</strong> I built that enables layered analysis of mobile device attributes — 
+                            teams use it to update policies, flag devices for blacklisting, and run daily anomaly monitoring to catch 
+                            material and immaterial spikes or dips across device signals. The second is a 
+                            <strong>platform migration initiative</strong> to move our team off Tableau and onto a custom-hosted 
+                            D3.js solution, where I own the technical design, stakeholder alignment, and change management across 
+                            multiple business teams.
+                        </p>
+                        <p>
+                            Day-to-day, I develop and maintain SQL pipelines across large-scale datasets to support fraud detection, 
+                            credential management, and 2FA analytics, and independently define business logic for new data requests 
+                            from PMs and BAs. I also maintain Tableau dashboards supporting Credential Management, 2FA, and several 
+                            fraud teams.
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">August 2025</span>
+                        <span class="text-primary">August 2025 – Present</span>
                     </div>
                 </div>
                 <div
@@ -224,7 +265,7 @@
                         <div class="subheading mb-3">Capital One</div>
                         <p>
                             This past summer, I was a Data Analyst Intern at <a href="https://www.capitalone.com/" target="_blank">Capital One</a>, 
-                            where I worked on 2 project. For the first project, I developed a Tableau dashboard that enabled internal clients to filter 
+                            where I worked on 2 projects. For the first project, I developed a Tableau dashboard that enabled internal clients to filter 
                             and analyze over two years of bankruptcy complaints data. For the second project, I collaborated closely with compliance testers, 
                             risk management, business analysts, and software engineers to define SQL and Python scripts for pulling, filtering, and displaying
                             Complaints and COAF Account Origination data. Throughout this process, I also worked with the software engineers to give feedback 
@@ -233,7 +274,7 @@
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">June 2024 - August 2024</span>
+                        <span class="text-primary">June 2024 – August 2024</span>
                     </div>
                 </div>
                 <h3 class="mb-4">Research</h3>
@@ -246,17 +287,31 @@
                             Georgia Tech Visualization Lab
                         </div>
                         <p>
-                            I am a student researcher in the Georgia Tech  
-                            <a href="https://vis.gatech.edu/" target="_blank">Visualization Lab</a> advised by Assistant Professor <a href="https://cyxiong.com/" target="_blank">Cindy Xiong Bearfield</a>. 
-                            My research focuses on visual complexity, with an accepted 2024 IEEE VIS poster on quantifying visual complexity 
-                            using statistical analysis on the variation of chart types' average visual complexity ratings. 
-                            I plan to extend my research to developing a comprehensive and updated visualization database through the <strong>YJVisualization</strong> project, 
-                            inspired by the <a href="http://massvis.mit.edu/" target="_blank">MASSVIS</a> project. This new project will revise the taxonomy to reflect contemporary design trends 
-                            and integrate advanced search capabilities to enable efficient clustering and retrieval of similar visualizations.
+                            I was a student researcher in the Georgia Tech  
+                            <a href="https://vis.gatech.edu/" target="_blank">Visualization Lab</a> advised by Assistant Professor 
+                            <a href="https://cyxiong.com/" target="_blank">Cindy Xiong Bearfield</a>. My research spanned two projects.
+                        </p>
+                        <p>
+                            The first, <strong>beautiVis</strong>, produced a large-scale annotated dataset of 52,836 information 
+                            visualizations sourced from Reddit's r/dataisbeautiful subreddit (2012–2025). I co-led the design and 
+                            execution of the end-to-end annotation pipeline — scraping and processing images with Python and BeautifulSoup, 
+                            engineering multi-task prompts for GPT-4o to classify chart types and topical categories at scale, 
+                            designing an annotation taxonomy mapping 600+ raw chart types to 12 MASSVIS categories, and validating 
+                            label quality (Cohen's κ = 0.939). The dataset is publicly available on 
+                            <a href="https://huggingface.co/datasets/beautiVis/beautiVis" target="_blank">Hugging Face</a> and 
+                            <a href="https://osf.io/pkj7s" target="_blank">OSF</a>, and the work was published as a short paper at 
+                            <strong>IEEE PacificVis 2026</strong>.
+                        </p>
+                        <p>
+                            The second project focused on <strong>quantifying visual complexity</strong> in data visualizations. 
+                            I developed a visualization taxonomy and rubric for labeling 2,000+ entries in the MASSVIS dataset and 
+                            conducted R statistical analysis on the variation of visual complexity ratings across chart types. 
+                            This work resulted in an accepted poster at <strong>IEEE VIS 2024</strong> and an extended abstract 
+                            at <strong>ACM CHI 2025</strong>.
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">February 2025 - May 2025</span>
+                        <span class="text-primary">February 2024 – April 2026</span>
                     </div>
                 </div>
                 <h3 class="mb-4">Teaching</h3>
@@ -267,13 +322,13 @@
                         <h4 class="mb-0">CS 4460 - Introduction to Information Visualization Teaching Assistant</h4>
                         <div class="subheading mb-3">Georgia Tech College of Computing</div>
                         <p>
-                            As a Graduate Teaching Assistant for Intro to Info Vis, I support rover 100 students by conducting office hours and 
-                            grade quizzes, exams, and homework. Additionally, I assist the professor in assessing the course's integrity, high academic standards,
+                            As a Graduate Teaching Assistant for Intro to Info Vis, I supported over 100 students by conducting office hours and 
+                            grading quizzes, exams, and homework. Additionally, I assisted the professor in assessing the course's integrity, high academic standards,
                             and cohesive teaching environment.
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">January 2025 - May 2025</span>
+                        <span class="text-primary">January 2025 – May 2025</span>
                     </div>
                 </div>
                 <div
@@ -283,16 +338,14 @@
                         <h4 class="mb-0">ISYE 3770 - Statistics & Applications Head Teaching Assistant</h4>
                         <div class="subheading mb-3">Georgia Tech H. Milton Stewart School of Industrial and Systems Engineering</div>
                         <p>
-                            As the Head Teaching Assistant for Dr. Tuba Ketenci, I have supported approximately 350 students over the past year 
+                            As the Head Teaching Assistant for Dr. Tuba Ketenci, I supported approximately 400 students over two years 
                             by facilitating their understanding of course material, conducting office hours, managing email correspondence, 
-                            and grading quizzes, exams, homework, and class participation. I develop comprehensive answer keys for quizzes and exams 
-                            and achieved a 90% effectiveness rating in the Course Instructor Opinion Survey. Additionally, I oversee the creation of rubrics, 
-                            assign tasks to other TAs, and provide feedback to the professor to ensure the course's integrity, high academic standards, 
-                            and cohesive teaching environment.
+                            and grading quizzes, exams, homework, and class participation. I developed comprehensive answer keys for quizzes and exams 
+                            and achieved a 90% effectiveness rating in the Course Instructor Opinion Survey.
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">January 2023 - May 2025</span>
+                        <span class="text-primary">January 2023 – May 2025</span>
                     </div>
                 </div>
                 <div
@@ -302,15 +355,15 @@
                         <h4 class="mb-0">CS 3001 - Computing & Society Graduate Teaching Assistant</h4>
                         <div class="subheading mb-3">Georgia Tech College of Computing</div>
                         <p>
-                            As a Graduate Teaching Assistant for CS Ethics, I lead engaging discussions with two groups 
+                            As a Graduate Teaching Assistant for CS Ethics, I led engaging discussions with two groups 
                             of 10–15 students on the ethical and societal implications of technology. 
-                            I serve as the primary contact point for these students, collaborating with the instructor 
-                            and head TA to address inquiries and concerns. Additionally, I grade students' papers and exams, 
+                            I served as the primary contact point for these students, collaborating with the instructor 
+                            and head TA to address inquiries and concerns. Additionally, I graded students' papers and exams, 
                             providing timely and constructive feedback.
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <span class="text-primary">August 2024 - December 2024</span>
+                        <span class="text-primary">August 2024 – December 2024</span>
                     </div>
                 </div>
             </div>
@@ -320,31 +373,67 @@
         <section class="resume-section" id="publications">
             <div class="resume-section-content">
                 <h2 class="mb-5">Publications</h2>
-                <h3 class="mb-3">Posters</h3>
-                <div style="margin-bottom: 40px;">
-                    <div style="display: flex; align-items: flex-start;">
-                        <a href="complex_visualization_poster.pdf" target="_blank">
-                            <img src="images/complex_visualization_poster.jpg" alt="Complex Visualization Poster Preview" style="width:200px; margin-right:20px;">
-                        </a>
-                        <div>
-                            <p>Lin, K., <b>Ru, S.</b>, Rapp, D., Guan, H., &amp; Xiong Bearfield, C. (2024).</p>
-                            <p><b><a href="complex_visualization_poster.pdf" target="_blank">What Makes a Visualization Visually Complex? Exploring Design Features Related to Visual Complexity.</a></b></p>
-                            <p><em>IEEE VIS 2024 Poster</em>.</p>
+
+                <h3 class="mb-3">Papers</h3>
+
+                <!-- beautiVis PacificVis 2026 -->
+                <div class="publication-card">
+                    <a href="PacificVis_2026_BeauVis_Short_Paper.pdf" target="_blank">
+                        <div class="pub-placeholder">
+                            <i class="fas fa-file-pdf"></i>
                         </div>
+                    </a>
+                    <div>
+                        <p>Lin, K.*, <b>Ru, S.*</b>, Chang, M., &amp; Xiong Bearfield, C. (2026). <em>(*co-first authors)</em></p>
+                        <p><b><a href="PacificVis_2026_BeauVis_Short_Paper.pdf" target="_blank">beautiVis: An Annotated Visualization Dataset from Reddit's r/dataisbeautiful.</a></b></p>
+                        <p><em>IEEE PacificVis 2026, Short Paper.</em></p>
+                        <p style="font-size:0.9rem; color:#555;">
+                            A large-scale annotated dataset of 52,836 information visualizations from r/dataisbeautiful (2012–2025), 
+                            built using an automated GPT-4o labeling pipeline. Annotated with chart types, topical categories, 
+                            and social engagement metrics. Publicly available on 
+                            <a href="https://huggingface.co/datasets/beautiVis/beautiVis" target="_blank">Hugging Face</a> and 
+                            <a href="https://osf.io/pkj7s" target="_blank">OSF</a>.
+                        </p>
                     </div>
                 </div>
-                <div style="margin-bottom: 40px;">
-                    <div style="display: flex; align-items: flex-start;">
-                        <a href="charting_complexity_poster.pdf" target="_blank">
-                            <img src="images/charting_complexity_poster.jpg" alt="Charting Complexity Poster Preview" style="width:200px; margin-right:20px;">
-                        </a>
-                        <div>
-                            <p><b>Ru, S.</b>, Lin, K., Rapp, D., Guan, H., &amp; Xiong Bearfield, C. (2024).</p>
-                            <p><b><a href="charting_complexity_poster.pdf" target="_blank">Charting Complexity: How Chart Types Relate to Visual Complexity.</a></b></p>
-                            <p><em>IEEE VIS 2024 Poster</em>.</p>
-                        </div>
+
+                <!-- CHI 2025 Extended Abstract -->
+                <div class="publication-card">
+                    <div>
+                        <p>Lin, K., <b>Ru, S.</b>, Rapp, D., Guan, H., &amp; Xiong Bearfield, C. (2025).</p>
+                        <p><b><a href="https://doi.org/10.1145/3706599.3719983" target="_blank">What Makes a Visualization Visually Complex?</a></b></p>
+                        <p><em>ACM CHI 2025, Extended Abstracts.</em></p>
+                        <p style="font-size:0.9rem; color:#555;">
+                            An investigation of the design features that contribute to perceived visual complexity in data visualizations, 
+                            using a taxonomy-driven rubric applied to 2,000+ entries from the MASSVIS dataset.
+                        </p>
                     </div>
                 </div>
+
+                <h3 class="mb-3 mt-4">Posters</h3>
+
+                <div class="publication-card">
+                    <a href="complex_visualization_poster.pdf" target="_blank">
+                        <img src="images/complex_visualization_poster.jpg" alt="Complex Visualization Poster Preview" style="width:200px; margin-right:20px;">
+                    </a>
+                    <div>
+                        <p>Lin, K., <b>Ru, S.</b>, Rapp, D., Guan, H., &amp; Xiong Bearfield, C. (2024).</p>
+                        <p><b><a href="complex_visualization_poster.pdf" target="_blank">What Makes a Visualization Visually Complex? Exploring Design Features Related to Visual Complexity.</a></b></p>
+                        <p><em>IEEE VIS 2024 Poster</em>.</p>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <a href="charting_complexity_poster.pdf" target="_blank">
+                        <img src="images/charting_complexity_poster.jpg" alt="Charting Complexity Poster Preview" style="width:200px; margin-right:20px;">
+                    </a>
+                    <div>
+                        <p><b>Ru, S.</b>, Lin, K., Rapp, D., Guan, H., &amp; Xiong Bearfield, C. (2024).</p>
+                        <p><b><a href="charting_complexity_poster.pdf" target="_blank">Charting Complexity: How Chart Types Relate to Visual Complexity.</a></b></p>
+                        <p><em>IEEE VIS 2024 Poster</em>.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
         <hr class="m-0" />
@@ -353,14 +442,14 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">Resume</h2>
                 <iframe
-                    src="sean_ru_resume.pdf"
+                    src="Sean_Ru_Resume.pdf"
                     width="100%"
                     height="950px"
                     style="border:none;"
                 ></iframe>
                 <p>
                     If the PDF does not display, you can download my resume
-                    <a href="sean_ru_resume.pdf" target="_blank">here</a>.
+                    <a href="Sean_Ru_Resume.pdf" target="_blank">here</a>.
                 </p>
             </div>
         </section>
@@ -373,7 +462,7 @@
     <script src="js/scripts.js"></script>
     
     <div class="footer" style="text-align: center; padding: 1rem 0;">
-        &copy; Sean S. Ru, 2024
+        &copy; Sean S. Ru, 2025
     </div>
     
 </body>
